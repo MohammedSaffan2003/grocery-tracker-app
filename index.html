@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Stock Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Grocery Stock Management</h1>
+
+      <!-- Form to Add New Grocery Item -->
+      <form id="addGroceryForm">
+        <input
+          type="text"
+          id="groceryName"
+          placeholder="Grocery Name"
+          required
+        />
+        <button type="submit">Add Grocery</button>
+      </form>
+
+      <!-- Section to Display Grocery Items -->
+      <div id="groceryList"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
